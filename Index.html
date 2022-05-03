@@ -1,1 +1,105 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent A Car Today</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/car.png" />
+</head>
+<body>
+    <div id="header">
+        <div id="headerlogo">
+            <a target="_blank" href=""><img class="banner" src="images/car.png"></a>
+        </div> 
+        <div id="headertitle">
+            <span>Wheels on Demand</span>
+        </div>
+    </div>
+    <div id="head">
+        <div id="headimg">
+            <img src="././images/car1.png">
+        </div>
+        <div id="headcont">
+            <h1 id="title">Car Rental Inquiry Form</h1>
+            <p class="blurb">We'd like to know more about you and your needs. Kindly fill in this form and a customer service representative will reach out to you.</p>
+            <p class="blurb">No booking fees. No credit card fees. Best price guaranteed.</p>
+        </div> 
+    </div>
+    <div id="container">
+        <form id="survey-form" action="" method="get">
+            <h2>Let's find your ideal car</h2>
+            <div id="first">
+                <div id="about">
+                    <h3>Tell us about yourself</h3>
+                    <label class="about-label" id="name-label"> Full Name:</label>
+                    <input type="text" name="name" id="name" class="about-input" placeholder="Kimi no Nawa" size="20"><br><br>
+                    <label class="about-label" id="email-label">E-mail:</label>
+                    <input type="email" name="email" id="email" class="about-input" placeholder="email@email.com" size="20"><br><br>
+                    <label class="about-label" id="number-label">Age:</label>
+                    <input type="number" name="age" id="number" min="18" max="99" class="about-input" placeholder="Your Age" size="8">
+                </div>
+                <div id="dates">
+                    <h3>It's all about location</h3>
+                    <div class="datesform" id="pickup">
+                        <h4>Pick-up</h4>
+                        <label class="dates-label" id="pickup-label">Location:</label>
+                        <input type="text" name="loc1" id="pickup-loc" class="dates-input" placeholder="Where you do you need the car?"><br><br>
+                        <label class="dates-label" id="pickupday-label">Date and Time:</label>
+                        <input type="datetime-local" name="date1" id="pickup-date" class="dates-input" value="2022-04-20T08:00"><br>
+                    </div>
+                    <div class="datesform" id="dropoff">
+                        <h4>Drop-off</h4>
+                        <label class="dates-label" id="dropoff-label">Location:</label>
+                        <input type="text" name="loc2" id="dropoff-loc" class="dates-input" placeholder="Where you do you return the car?"><br><br>
+                        <label class="dates-label" id="dropoffday-label">Date and Time:</label>
+                        <input type="datetime-local" name="date2" id="dropoff-date" class="dates-input" value="2022-04-21T08:00"><br>
+                    </div>
+                    <div class="datesform" id="dest">
+                        <h4>Destination</h4>
+                        <label class="dates-label" id="dropoff-label">Location:</label>
+                        <input type="text" name="dest" class="dates-input" placeholder="Where to?">
+                    </div>
+                </div>
+                <div id="car">
+                    <h3>Describe your dream ride</h3>
+                    <div id="carsub">
+                        <div id="vehicletype">
+                            <h4>Vehicle Type</h4>
+                            <input class="car-input1" type="radio" name="vehicle-type" id="Sedan" value="sedan" checked><label for="Sedan">Sedan</label><br>
+                            <input class="car-input1" type="radio" name="vehicle-type" id="SUV" value="suv" ><label for="SUV">SUV</label><br>
+                            <input class="car-input1" type="radio" name="vehicle-type" id="Pick-up" value="pickup" ><label for="Pick-up">Pick-up</label><br>
+                            <input class="car-input1" type="radio" name="vehicle-type" id="Coupe" value="coupe" ><label for="Coupe">Coupe</label><br>
+                            <input class="car-input1" type="radio" name="vehicle-type" id="Van" value="van" ><label for="Van">Van</label>
+                        </div>
+                        <div id="drivetype">
+                            <h4>Transmission</h4>
+                            <input class="car-input2" type="checkbox" name="transmission" id="manual" value="manual">
+                            <label for="manual">Manual Transmission</label><br>
+                            <input class="car-input2" type="checkbox" name="transmission" id="automatic" value="automatic">
+                            <label for="automatic">Automatic Transmission</label>
+                            <h4>Drive Type</h4>
+                            <select name="driver" id="driver">
+                                <option value="No">Self-Drive</option>
+                                <option value="Yes">With Driver</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="second">
+                <div id="requests">
+                    <h3>Notes or Requests</h3>
+                    <textarea name="notes" id="notes" rows="4" cols="40">Don't hesitate to let us know if you have special requests!</textarea>
+                </div>
+                <div id="submit">
+                    <input id="thebutton" type="submit" name="button" value="Find me a car!" size="20">
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
