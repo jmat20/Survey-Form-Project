@@ -10,7 +10,8 @@ body {
 div#header {
     display: flex;
     width: 100vw;
-    height: 70px;
+    height: 6vw;
+    max-height: 70px;
     background-image: url('././images/header7.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,50 +21,56 @@ div#header {
     top: 0px;
     left: 0px;
     }
-.banner {
+#banner {
     margin-left: 20px;
-    height: 70px;
+    height: 6vw;
     max-width: auto;
+    max-height: 70px;
     ;
     }
 #headertitle {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: floralwhite;
-    font-size: 60px;
+    font-size: min(5.5vw , 60px);
     padding-left: 30px;
     align-content: center;
 }
 div#head {
     margin-top: 80px;;
-    height: 20vw;
+    
     background: rgba(82, 82, 82, 0.8);
     border-radius: 15px;
     display: flex;
 }
 #headcont{
     flex: 1.5;
-    margin-right: 20px;
+    margin-right: 1vw;
     align-self: center;
     height: fit-content;
     width: auto;
 }
 #headimg{
     flex: 0.5;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 1vw;
     align-self: center;
-    height: fit-content;
+    height: auto;
     width: auto;
+}
+#carr {
+    height: 100%;
+    width: 100%;
 }
 #title {
     color: #ffffff;
     margin-left: 30px;
+    font-size: 3vw;
 }
 p.blurb {
     text-align: justify;
     color: #ffffff;
     margin-left: 30px;
     margin-right: 40px;
+    font-size: 1.25vw;
 }
 div#container{
     margin-top: 2vw;
@@ -205,6 +212,6 @@ input, select {
 p.thankyou {
     font-size: 1.5vw;
     color: #ffffff;
-    padding: 1vw 1vw
+    padding: 1vw 3vw
 }
 -->
