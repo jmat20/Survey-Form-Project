@@ -81,11 +81,13 @@ div#container{
 h2 {
     color: floralwhite;
     padding-left: 2vw;
+    font-size: 2vw;
 }
 h3 {
     color: black;
     padding-left: 1vw;
     text-align: left;
+    font-size: 1.5vw;
 }
 h4 {
     color: #2a2a2a;
@@ -107,12 +109,13 @@ form#survey-form {
 label.about-label {
     float:left;
     padding-left: 20px;
-    
+    font-size: 1vw;
 }
 input.about-input {
     float: right;
     width: 50%;
     margin-right: 20px;
+    font-size: min(1.2vw, 24px);
     
 }
 input:focus {
