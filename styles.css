@@ -202,4 +202,9 @@ textarea {
 input, select {
     border-radius: 4px;
 }
+p.thankyou {
+    font-size: 1.5vw;
+    color: #ffffff;
+    padding: 1vw 1vw
+}
 -->
