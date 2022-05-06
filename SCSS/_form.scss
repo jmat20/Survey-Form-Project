@@ -1,0 +1,119 @@
+form#survey-form {
+    width: 100%;
+}
+#first {
+    display: flex;
+}
+#about {
+    flex: 1;
+    margin-left: unquote('20px');
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: unquote('15px');
+    margin-right: unquote('10px');
+}
+label.about-label {
+    float:left;
+    padding-left: unquote('20px');
+    font-size: unquote('1vw');
+}
+input.about-input {
+    float: right;
+    width: 50%;
+    margin-right: unquote('20px');
+    font-size: unquote('min(1.2vw, 24px)');
+    
+}
+input:focus {
+    border: unquote('3px') solid #555;
+  }
+#dates {
+    flex: 1;
+    margin-left: unquote('10px');
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: unquote('15px');
+    margin-right: unquote('10px');
+    padding-bottom: unquote('10px');
+}
+label.dates-label {
+    float:left;
+    padding-left: unquote('20px'); 
+}
+input.dates-input {
+    float: right;
+    width: 50%;
+    margin-right: unquote('20px');
+}
+#car {
+    flex: 1;
+    margin-left: unquote('10px');
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: unquote('15px');
+    margin-right: unquote('20px');
+}
+#carsub {
+    display: flex;
+}
+#vehicletype {
+    flex: 0.75;
+}
+#drivetype {
+    flex: 1.25;
+}
+input.car-input1 {
+    margin-left: 1.5vw;
+}
+input.car-input2 {
+    margin-left: 1.5vw;
+}
+select {
+    margin-left: unquote('1.5vw');
+    border-radius: unquote('2px');
+}
+#second {
+    display: flex;
+    margin-top: unquote('2vw');
+    margin-bottom: unquote('2vw');
+}
+#requests {
+    flex: 1.33;
+    margin-left: unquote('20px');
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: unquote('15px');
+    margin-right: unquote('30px');
+    text-align: center;
+    padding-bottom: unquote('1vw');
+}
+textarea {
+    width: 90%;
+    height: unquote('100px');
+    padding: unquote('12px 20px');
+    box-sizing: border-box;
+    border: unquote('2px') solid #ccc;
+    border-radius: unquote('4px');
+    background-color: #f8f8f8;
+    resize: none;
+}
+#submit {
+    flex: 0.66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#thebutton {
+
+    width: 50%;
+    height: 50%;
+    background-color: #2c78e2;
+    border: unquote('4px') solid #2a2a2a;
+    border-radius: unquote('15px');
+    color: white;
+    font-size: unquote('2vw');
+    text-decoration: none;
+    cursor: pointer;
+}
+#thebutton:hover {
+    background-color: #2a2a2a;
+}
+input, select {
+    border-radius: unquote('4px');
+}

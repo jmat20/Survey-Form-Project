@@ -1,0 +1,98 @@
+$grayback: rgba(82, 82, 82, 0.8);
+
+body {
+  background-image: url("./images/back2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: unquote("100% 100%");
+  background-color: lightgrey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div#header {
+  display: flex;
+  width: unquote("100vw");
+  height: unquote("6vw");
+  max-height: unquote("70px");
+  background-image: url("../images/header7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: unquote("100% 11%");
+  background-color: #ffffff;
+  position: fixed;
+  top: calc(0px);
+  left: calc(0px);
+}
+#banner {
+  margin-left: unquote("20px");
+  height: unquote("6vw");
+  max-width: auto;
+  max-height: unquote("70px");
+}
+#headertitle {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: floralwhite;
+  font-size: calc(min(5.5vw, 60px));
+  padding-left: unquote("30px");
+  align-content: center;
+}
+div#head {
+  margin-top: unquote("80px");
+
+  background: $grayback;
+  border-radius: unquote("15px");
+  display: flex;
+}
+#headcont {
+  flex: 1.5;
+  margin-right: unquote("1vw");
+  align-self: center;
+  height: fit-content;
+  width: auto;
+}
+#headimg {
+  flex: 0.5;
+  margin: unquote("1vw");
+  align-self: center;
+  height: auto;
+  width: auto;
+}
+#carr {
+  height: unquote("100%");
+  width: unquote("100%");
+}
+#title {
+  color: #ffffff;
+  margin-left: unquote("30px");
+  font-size: unquote("3vw");
+}
+p.blurb {
+  text-align: justify;
+  color: #ffffff;
+  margin-left: unquote("30px");
+  margin-right: unquote("40px");
+  font-size: unquote("1.25vw");
+}
+div#container {
+  margin-top: unquote("2vw");
+  background: $grayback;
+  border-radius: unquote("15px");
+  display: flex;
+}
+h2 {
+  color: floralwhite;
+  padding-left: unquote("2vw");
+  font-size: unquote("2vw");
+}
+h3 {
+  color: black;
+  padding-left: unquote("1vw");
+  text-align: left;
+  font-size: unquote("1.5vw");
+}
+h4 {
+  color: #2a2a2a;
+  padding-left: 1.2vw;
+}
+
+@import "_form";
+@import "_thankyou";
