@@ -20,8 +20,8 @@ div#header {
   background-size: 100% 11%;
   background-color: #ffffff;
   position: fixed;
-  top: calc(0px);
-  left: calc(0px);
+  top: 0px;
+  left: 0px;
 }
 
 #banner {
@@ -151,7 +151,7 @@ input.about-input {
   float: right;
   width: 50%;
   margin-right: 20px;
-  font-size: min(1.2vw, 24px);
+  font-size: calc(min(1.2vw, 24px));
 }
 
 input:focus {
@@ -284,7 +284,8 @@ textarea {
   background-color: #2a2a2a;
 }
 
-input, select {
+input,
+select {
   border-radius: 4px;
 }
 

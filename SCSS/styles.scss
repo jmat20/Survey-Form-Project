@@ -4,90 +4,91 @@ body {
   background-image: url("./images/back2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: unquote("100% 100%");
+  background-size: 100% 100%;
   background-color: lightgrey;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 div#header {
   display: flex;
-  width: unquote("100vw");
-  height: unquote("6vw");
-  max-height: unquote("70px");
+  width: 100vw;
+  height: 6vw;
+  max-height: 70px;
   background-image: url("../images/header7.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: unquote("100% 11%");
+  background-size: 100% 11%;
   background-color: #ffffff;
   position: fixed;
-  top: calc(0px);
-  left: calc(0px);
+  top: 0px;
+  left: 0px;
 }
 #banner {
-  margin-left: unquote("20px");
-  height: unquote("6vw");
+  margin-left: 20px;
+  height: 6vw;
   max-width: auto;
-  max-height: unquote("70px");
+  max-height: 70px;
 }
 #headertitle {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: floralwhite;
   font-size: calc(min(5.5vw, 60px));
-  padding-left: unquote("30px");
+  //having min generates an error with compiler. min was put inside calc as a fix
+  padding-left: 30px;
   align-content: center;
 }
 div#head {
-  margin-top: unquote("80px");
+  margin-top: 80px;
 
   background: $grayback;
-  border-radius: unquote("15px");
+  border-radius: 15px;
   display: flex;
 }
 #headcont {
   flex: 1.5;
-  margin-right: unquote("1vw");
+  margin-right: 1vw;
   align-self: center;
   height: fit-content;
   width: auto;
 }
 #headimg {
   flex: 0.5;
-  margin: unquote("1vw");
+  margin: 1vw;
   align-self: center;
   height: auto;
   width: auto;
 }
 #carr {
-  height: unquote("100%");
-  width: unquote("100%");
+  height: 100%;
+  width: 100%;
 }
 #title {
   color: #ffffff;
-  margin-left: unquote("30px");
-  font-size: unquote("3vw");
+  margin-left: 30px;
+  font-size: 3vw;
 }
 p.blurb {
   text-align: justify;
   color: #ffffff;
-  margin-left: unquote("30px");
-  margin-right: unquote("40px");
-  font-size: unquote("1.25vw");
+  margin-left: 30px;
+  margin-right: 40px;
+  font-size: 1.25vw;
 }
 div#container {
-  margin-top: unquote("2vw");
+  margin-top: 2vw;
   background: $grayback;
-  border-radius: unquote("15px");
+  border-radius: 15px;
   display: flex;
 }
 h2 {
   color: floralwhite;
-  padding-left: unquote("2vw");
-  font-size: unquote("2vw");
+  padding-left: 2vw;
+  font-size: 2vw;
 }
 h3 {
   color: black;
-  padding-left: unquote("1vw");
+  padding-left: 1vw;
   text-align: left;
-  font-size: unquote("1.5vw");
+  font-size: 1.5vw;
 }
 h4 {
   color: #2a2a2a;
